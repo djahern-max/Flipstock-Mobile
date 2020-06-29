@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://Dane123:Dane123@flipstock-mobile-giohe.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
+}
