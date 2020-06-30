@@ -12,6 +12,7 @@ console.log('database connected');
 app.use(express.json({ extended: false }));
 
 app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/stockData', require('./routes/api/stockData'));
 app.use('/api/users', require('./routes/api/users'));
 
 const PORT = process.env.PORT || 5000;
